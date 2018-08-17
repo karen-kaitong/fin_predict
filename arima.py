@@ -4,6 +4,7 @@ import argparse
 import matplotlib.pyplot as plt
 from statsmodels.tsa.arima_model import ARIMA
 
+#add: identify seasonality/trend
 
 #select best arima model, output plot and prediction
 if __name__ == '__main__':
@@ -37,6 +38,7 @@ if __name__ == '__main__':
 		df = df[(df['datefield'] >= start) & (df['datefield'] <= end)]
 	if args.predict:
 		rmse = 0
+		#work in progress
 		#choose best arima based on acf and pacf, print rmse and make prediction
 		#for the given time period
 		print('RMSE: {0}'.format(rmse))
