@@ -6,7 +6,7 @@ from statsmodels.tsa.arima_model import ARIMA
 
 #add: identify seasonality/trend
 
-#test_test_comment
+#test_test_comment2
 #select best arima model, output plot and prediction
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
