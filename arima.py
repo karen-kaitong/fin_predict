@@ -6,12 +6,13 @@ from statsmodels.tsa.arima_model import ARIMA
 
 #add: identify seasonality/trend
 
+#test_test_comment
 #select best arima model, output plot and prediction
 if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument('-i_fn', '--input_file_name', dest = 'input', \
 		action = 'store', help = 'Read in data')
-	parser.add_argument('-v', '--verbose', help = 'Display details about dataset')
+	parser.add_argument('-v', '--verbose', help = 'Display details about dastaset')
 	#can pass in one date or two
 	parser.add_argument('-sl', '--select', help = 'Select data based on the date')
 	parser.add_argument('-pred', '--predict', help = 'Make prediction for next given period')
